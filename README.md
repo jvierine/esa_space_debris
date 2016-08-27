@@ -1,6 +1,7 @@
 # A collection of software associated with the ESA Space Debris project at UiT
 
-Juha Vierinen (x@mit.edu), 2016.
+Juha Vierinen (jvi019@uit.no), 2016.
+University of Tromsø
 
 ## PET-RDOE
 
