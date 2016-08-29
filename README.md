@@ -3,7 +3,7 @@
 Juha Vierinen (jvi019@uit.no), 2016.
 University of Tromsø
 
-## PET-RDOE
+## Space Object Radar Tracking Simulator (SORTS)
 
 Performance evaluation tool for radar determination of orbital elements. A software tool that allows evaluating the performance of a multi-static radar system for determining orbital elements. This includes radar power, aperture, locations of transmit and receive sites, as well as ionospheric radio propagation effects. 
 
