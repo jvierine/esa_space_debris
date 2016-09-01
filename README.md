@@ -1,6 +1,15 @@
 # A collection of software associated with the ESA Space Debris project at UiT
 
-CCSDS writer, antenna pointing scripts, track scheduling
+Juha Vierinen (jvi019@uit.no), 2016.
+University of Tromsø
+
+## Space Object Radar Tracking Simulator (SORTS)
+
+Performance evaluation tool for radar determination of orbital elements. A software tool that allows evaluating the performance of a multi-static radar system for determining orbital elements. This includes radar power, aperture, locations of transmit and receive sites, as well as ionospheric radio propagation effects. 
+
+## Tracking
+
+The tracking programs are intended to assist in planning ranging measurements of satellites. The programs are mainly planned for use with the EISCAT steerable radars. There is also a program, which will allow the results to be exported into CCSDS format for ingestion with the ESA orbital elements determination program. 
 
 Calculate passes:
 
