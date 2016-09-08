@@ -1,0 +1,42 @@
+MAIN { args } {
+    callblock vhf_track
+    after 86400 stopexperiment
+}
+BLOCK vhf_track { args } {
+
+remote kir upar 17 0
+remote sod upar 17 0
+
+DISP -hms. "PROBA 1 t0 2016/9/6 02:00:00"
+AT "2016-09-06 03:30:00"
+remote kir pointdirection 335.89 61.52
+remote kir upar 17 26958
+remote kir upar 18 355.89
+remote kir upar 19 61.52
+
+remote sod pointdirection 312.46 54.09
+remote sod upar 17 26958
+remote sod upar 18 312.46
+remote sod upar 19 54.09
+
+DISP -hms. "VEGA AVUM R/B t0 2016/9/6 05:29:54"
+AT "2016-09-06 05:00:00"
+
+remote kir pointdirection 335.89 61.52
+remote kir upar 17 38086
+remote kir upar 18 335.89
+remote kir upar 19 61.52
+
+remote sod pointdirection 309.22 41.61
+remote sod upar 17 38086
+remote sod upar 18 309.22
+remote sod upar 19 41.61
+
+DISP -hms. "DONE!"
+AT "2016-09-06 05:40:00"
+remote kir upar 17 0
+remote sod upar 17 0
+remote kir parkantenna
+remote sod parkantenna
+
+}
